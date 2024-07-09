@@ -1,3 +1,10 @@
+/**
+ * Header component.
+ *
+ * @param {Object} props - The component props.
+ * @param {string} props.heading - The heading text to be displayed.
+ * @returns {JSX.Element} - The rendered Header component.
+ */
 export const Header = ({ heading }) => (
   <>
     <h2>
